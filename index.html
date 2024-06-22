@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+    <title>title</title>
+</head>
+<body>
+    <header id="header">
+      <nav id="nav-bar">
+        <div class="logo-container">
+            <img src="https://cdn.discordapp.com/attachments/1200079402176888953/1244556202046914591/front_1.png?ex=66558ac9&is=66543949&hm=31ee56c3c06914855e1e239c41ed6ea4f1e87eb0790b83c8d08d5ab9802d49b1&" alt="logo" id="header-img"/>
+            <span class="logo">kdxr</span>
+        </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about-video-container" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="#feature" class="nav-link">Feature</a></li>
+            </ul>
+      </nav>
+    </header>
+
+    <section id="email-section">
+        <h2>Get our tee now!!!</h2>
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+            <input id="email" type="email" required placeholder="Enter your email address" name="email">
+            <input type="submit" id="submit" value="GET STARTED">
+        </form>
+    </section>
+
+    
+    <section id="home">
+        <div class="container">
+            <h2>Homepage</h2>
+            <div class="product-grid">
+                <div class="product" id="item1">
+                    <img src="https://via.placeholder.com/200" alt="Product 1">
+                    <h3>Product 1</h3>
+                    <p>$19.99</p>
+                    <a href="#" class="btn">Select</a>
+                </div>
+                <div class="product" id="item2">
+                    <img src="https://via.placeholder.com/200" alt="Product 2">
+                    <h3>Product 2</h3>
+                    <p>$19.99</p>
+                    <a href="#" class="btn">Select</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="about-video-container">
+        <section id="video">
+            <h2>Video</h2>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/2yJgwwDcgV8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+        </section>
+    
+        <section id="about">
+            <h2>About</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero et necessitatibus reiciendis consectetur ad fugiat voluptatibus illum. Non in doloribus pariatur fugiat sequi quo cupiditate maxime, error illum ea harum.</p>
+        </section>
+    </section>
+
+    <section class="slider_section" id="feature">
+        <div class="p_text"><h2>'Feature For Kewl People'</h2></div>
+        <div class="slider" reverse="true" style="
+                --width: 200px;
+                --height: 200px;
+                --quantity: 9;
+            ">
+                <div class="list">
+                    <div class="item" style="--position: 1"><img src="img/slider2_1.png" alt=""></div>
+                    <div class="item" style="--position: 2"><img src="img/slider2_2.png" alt=""></div>
+                    <div class="item" style="--position: 3"><img src="img/slider2_3.png" alt=""></div>
+                    <div class="item" style="--position: 4"><img src="img/slider2_4.png" alt=""></div>
+                    <div class="item" style="--position: 5"><img src="img/slider2_5.png" alt=""></div>
+                    <div class="item" style="--position: 6"><img src="img/slider2_6.png" alt=""></div>
+                    <div class="item" style="--position: 7"><img src="img/slider2_7.png" alt=""></div>
+                    <div class="item" style="--position: 8"><img src="img/slider2_8.png" alt=""></div>
+                    <div class="item" style="--position: 9"><img src="img/slider2_9.png" alt=""></div>
+                </div>
+            </div>
+    </section>
+
+    <section id="contact">
+        <footer id="footer">
+            <div class="container-icon">
+                <h2>Contact Us</h2>
+                <div class="social-icons">
+                    <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <p>Testing &#169; 2024 Dim Dom. Product Landing Page.</p>
+        </footer>
+    </section>
+</body>
+</html>
